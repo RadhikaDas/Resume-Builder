@@ -1,0 +1,105 @@
+
+element.style {
+}
+.button--red:hover {
+    border-color: #d04141;
+    background: #d04141;
+    color: #fff;
+}
+
+.button:active, .button:focus, .button:hover {
+    text-decoration: none;
+}
+.template__button {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.button--red {
+    border-color: #e44747;
+    background: #e44747;
+    color: #fff;
+}
+.button--big, .button--medium {
+    border-radius: 3.2rem;
+    line-height: 1;
+}
+.button--medium {
+    padding: 1.5rem 2.5rem 1.3rem;
+    font-size: 1.6rem;
+}
+.button, .button[type] {
+    cursor: pointer;
+}
+.button {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    border: .3rem solid;
+    -webkit-appearance: none;
+    font-weight: 600;
+    outline: 0;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: background-color .25s cubic-bezier(.45,.05,.55,.95) 0ms,border-color .25s cubic-bezier(.45,.05,.55,.95) 0ms,box-shadow .25s cubic-bezier(.45,.05,.55,.95) 0ms,color .25s cubic-bezier(.45,.05,.55,.95) 0ms,opacity .25s cubic-bezier(.45,.05,.55,.95) 0ms;
+    transition: background-color .25s cubic-bezier(.45,.05,.55,.95) 0ms,border-color .25s cubic-bezier(.45,.05,.55,.95) 0ms,box-shadow .25s cubic-bezier(.45,.05,.55,.95) 0ms,color .25s cubic-bezier(.45,.05,.55,.95) 0ms,opacity .25s cubic-bezier(.45,.05,.55,.95) 0ms;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+*, ol, ul {
+    box-sizing: border-box;
+}
+*, body, ol, ul {
+    padding: 0;
+    margin: 0;
+}
+.template__image {
+    position: relative;
+    overflow: hidden;
+    border: .1rem solid #e8e8e8;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: 0;
+}
+.grid__row {
+    display: -webkit-box;
+    display: flex;
+    min-height: .1rem;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+body {
+    color: #233143;
+    font-family: HK Grotesk,sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
