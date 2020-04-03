@@ -12,6 +12,10 @@ library(DT)
 library(visNetwork)
 library(rintrojs)
 
+library(officer)
+library(mschart)
+library(pagedown)
+library(htmltools)
 
 
 
@@ -30,7 +34,7 @@ shinyUI(navbarPage(title = "", id = "navBar",
                    theme = "./www/paper.css",
                    collapsible = TRUE,
                    inverse = TRUE,
-                   windowTitle = "Los Angeles County Career PathFinder",
+                   windowTitle = "Ready Resume",
                    position = "fixed-top",
                    
                    header = tags$style(
